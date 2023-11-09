@@ -389,7 +389,7 @@ color: #404BBF;
     display: flex;
     gap: 16px;
 }
-.icon-item-menu {
+.icons-item-menu {
     width: 40px;
     height: 40px;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
