@@ -460,10 +460,7 @@ color: #404BBF;
 .social-media-link:focus {
     background-color: #31d0aa;
 }
-.icon-insta,
-.icon-twitter,
-.icon-facebook,
-.icon-linkedin {
+.icon-social-media {
     fill: #f4f4fd;
 }
 .icon-menu-team .icons-item-menu .social-media-link:hover,
