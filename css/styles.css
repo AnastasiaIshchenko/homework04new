@@ -312,6 +312,12 @@ color: #404BBF;
     align-items: center;
     text-align: center;
 }
+.icon-menu-team {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
 /*======OUR PORTFOLIO======*/
 .examples {
     color: #2E2F42;
@@ -436,7 +442,6 @@ color: #404BBF;
 .icons-item-menu {
     width: 40px;
     height: 40px;
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-link {
         width: 100%;
@@ -446,8 +451,10 @@ color: #404BBF;
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
 }
-.social-media-link:hover {
+.icon-menu .icons-item-menu .social-media-link:hover {
     background-color: #31d0aa;
 }
 .social-media-link:focus {
@@ -458,4 +465,8 @@ color: #404BBF;
 .icon-facebook,
 .icon-linkedin {
     fill: #f4f4fd;
+}
+.icon-menu-team .icons-item-menu .social-media-link:hover,
+.icon-menu-team .icons-item-menu .social-media-link:focus {
+background-color: #404bbf;
 }
